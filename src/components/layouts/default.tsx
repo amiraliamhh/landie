@@ -1,21 +1,35 @@
 import * as React from 'react'
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle, ThemeProvider } from 'styled-components'
+import { defaultTheme } from './default-theme'
 
 const GlobalStyles = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
+  * {
+    box-sizing: border-box;
+    font-family: "Roboto";
+    font-weight: 400;
+  }
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+  }
+`
+
+const DefaultLayoutContainer = styled.div`
+  position: relative;
 `
 
 interface DefaultLayoutProps {}
 
 export const DefaultLayout = (props: React.PropsWithChildren<DefaultLayoutProps>) => {
   return (
-    <>
+    <DefaultLayoutContainer>
       <GlobalStyles />
-      {props.children}
-    </>
+      <ThemeProvider theme={defaultTheme}>
+        {props.children}
+      </ThemeProvider>
+    </DefaultLayoutContainer>
   )
 }

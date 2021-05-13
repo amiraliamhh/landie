@@ -16,6 +16,9 @@
     "paths": {
       "src/*": [
         "src/*"
+      ],
+      "common/*": [
+        "src/components/common/*"
       ]
     }
   },
