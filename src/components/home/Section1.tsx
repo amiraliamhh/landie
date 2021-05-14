@@ -6,6 +6,7 @@ import Illustration1 from '../../../assets/illustration_1.svg'
 
 const Section1Container = styled.section`
   margin-top: 108px;
+  margin-bottom: 108px;
   display: flex;
   justify-content: space-between;
   align-items: center;
