@@ -15,6 +15,10 @@ const GlobalStyles = createGlobalStyle`
   h1, h2, h3, h4, h5, h6, p {
     margin: 0px;
   }
+  .container {
+    width: 100%;
+    padding: 0 165px;
+  }
 `
 
 const DefaultLayoutContainer = styled.div`
