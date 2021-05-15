@@ -42,7 +42,7 @@ export const Section2 = () => {
   return (
     <>
       <Section2Container className="container happy-news">
-        <img src="happy_news.svg" alt="happy news" />
+        <img src="happy_news.svg" width="480" height="317" alt="happy news" />
         <Content>
           <Text variant="h4">
             Light, Fast & Powerful
@@ -54,7 +54,7 @@ export const Section2 = () => {
         </Content>
       </Section2Container>
       <Section2Container className="container social-influencer">
-        <img src="social_influencer.svg" alt="social influencer" />
+        <img width="540" height="389" src="social_influencer.svg" alt="social influencer" />
         <Content>
           <Text variant="h4">
             Light, Fast & Powerful
@@ -66,7 +66,7 @@ export const Section2 = () => {
         </Content>
       </Section2Container>
       <Section2Container className="container mention">
-        <img src="mention.svg" alt="mention" />
+        <img width="445" height="313" src="mention.svg" alt="mention" />
         <Content>
           <Text variant="h4">
             Light, Fast & Powerful

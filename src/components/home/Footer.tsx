@@ -19,7 +19,7 @@ const Content = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  h1 {
+  .brand-name {
     text-align: center;
     color: ${({ theme }) => theme.colors.logoPrimary};
     font-weight: 900;
@@ -72,7 +72,7 @@ export const Footer = () => {
         <Text variant="medium12">
           ©2020 Yourcompany
         </Text>
-        <h1>Landie</h1>
+        <p className="brand-name">Landie</p>
         <Button size="small" className="cta">
           Purchase Now
         </Button>

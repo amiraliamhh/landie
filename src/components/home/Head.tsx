@@ -20,7 +20,7 @@ const Content = styled.div`
   max-width: 540px;
   position: absolute;
   left: 165px;
-  h3 {
+  h2 {
     font-weight: 500;
     font-size: 50px;
     letter-spacing: 1px;
@@ -51,7 +51,7 @@ export const Head = () => {
       <Nav />
       <DesignerImage />
       <Content>
-        <h3>Introduce Your Product Quickly & Effectively</h3>
+        <h2>Introduce Your Product Quickly & Effectively</h2>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
 <br /><br />mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
         <CTAContainer>

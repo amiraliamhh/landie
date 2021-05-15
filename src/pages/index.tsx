@@ -10,8 +10,11 @@ import { Footer } from 'src/components/home/Footer'
 const Home = () => {
   return (
     <DefaultLayout>
-      <Helmet>
+      <Helmet htmlAttributes={{
+        lang: 'en',
+      }}>
         <title>Landie - Homepage</title>
+        <meta name="description" content="Landie - A Simple Landing Page Developed for Learning/Showcasing Purposes" />
       </Helmet>
       <Head />
       <Section1 />

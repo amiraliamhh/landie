@@ -29,7 +29,7 @@ export const InfoCard = ({
 }: InfoCardProps) => {
   return (
     <InfoCardContainer className={className}>
-      <img src={image} alt={alt} />
+      <img width="36" height="36" src={image} alt={alt} />
       <Text variant="medium16" className="title">
         {title}
       </Text>
