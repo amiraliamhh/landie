@@ -16,6 +16,16 @@ const PricingContainer = styled.section`
   .subtitle {
     margin-top: 16px;
   }
+  .curve {
+    height: 125px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: -32px;
+    left: 0;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
 `
 
 const PricingContent = styled.div`
@@ -46,6 +56,7 @@ const PricingContent = styled.div`
 export const Pricing = () => {
   return (
     <PricingContainer>
+      <div className="curve"></div>
       <PricingContent>
         <Text variant="h4">
           A Price To Suit Everyone
